@@ -39,7 +39,7 @@ class List
 };
 
 template<typename T>
-class Stack : public List <T>
+class Stack : private List <T>
 {  
     public:
     void push(T dato);
