@@ -56,11 +56,11 @@ queue.enQueue(4.3)
 queue.qprint()
 
 value = queue.front()
-print('\nValor top: ', value)
+print('\nPrimer Valor de la cola: ', value)
 
 print('\nDelete: ')
 queue.deQueue()
 queue.qprint()
 
 value = queue.front()
-print('\nValor top: ', value)
+print('\nPrimer Valor de la cola: ', value)

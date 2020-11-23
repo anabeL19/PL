@@ -67,7 +67,7 @@ int main()
     cout<<endl<<"Valores insertados en la cola: "<<endl;
 	queue.qprint();
 
-	cout<<endl<<"Valor top: "<< queue.front() <<"\n";
+	cout<<endl<<"Primer Valor de la cola: "<< queue.front() <<"\n";
 
 	queue.enQueue(4.3);
 
@@ -79,5 +79,5 @@ int main()
 	cout<<endl<<"Delete: \n";
 	queue.qprint();
 
-	cout<<endl<<"Valor top: "<< queue.front() <<"\n";
+	cout<<endl<<"Primer Valor de la cola: "<< queue.front() <<"\n";
 }
